@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Fetch news function
     const fetchNews = async () => {
         try {
-            const apiKey = '881122986ae7429ab8496abe2b929e0f';
+            const apiKey = 'ENTER YOUR API KEY';
             const response = await fetch('http://localhost:3000/news');
             const data = await response.json();
 
