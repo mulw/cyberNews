@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity News</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>Cybersecurity News</h1>
+        </div>
+        <div class="nav">
+            <button onclick="resetFilters()">Home</button>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search for news...">
+            <button onclick="applyFilters()">Search</button>
+        </div>
+        <div class="filters">
+            <label for="language">Filter by Language:</label>
+            <select id="language">
+                <option value="en">English</option>
+                <option value="es">Spanish</option>
+                <!-- Add more language options as needed -->
+            </select>
+
+            <label for="category">Filter by Category:</label>
+            <select id="category">
+                <option value="all">All</option>
+                <option value="data-breaches">Data Breaches</option>
+                <option value="malware">Malware</option>
+                <option value="phishing">Phishing</option>
+                <option value="ransomware">Ransomware</option>
+            </select>
+
+            <button onclick="applyFilters()">Apply Filters</button>
+        </div>
+    </header>
+
+    <main>
+        <div id="news-container"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
