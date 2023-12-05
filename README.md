@@ -79,7 +79,7 @@ venv\Scripts\activate
 
 **Support**
 
-For additional assistance or inquiries, please contact **benardmulwa508@gmail.com**.
+For additional assistance or inquiries, please contact **cybernewsite@proton.me**.
 
 **Contributing**
 
